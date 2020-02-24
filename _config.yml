@@ -6,23 +6,13 @@ description: Welcome and thanks for stopping by! I use this as my personal profe
 baseurl: "/jon-vargas.github.io" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 author: Jonathan Vargas
-street_address: 1234 Somewhere Road
-city:
-state: California
-zip_code:
-country: United States of America
-phone:
+location: Orange County
+country: USA
 # Social settings
 500px_url:
-facebook_url:
 github_url:
-gitlab_url:
-googleplus_url: 
 instagram_url: https://www.instagram.com/johnnyvargas
 linkedin_url: https://www.linkedin.com/in/jonathanvargas157
-pinterest_url:
-slack_url:
-twitter_url:
 
 # Build settings
 markdown: kramdown
