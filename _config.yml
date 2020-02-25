@@ -3,7 +3,7 @@ title: JV
 subtitle: // Jr. Data Analyast at Zillow
 email: jonvargas157@gmail.com
 description: Welcome and thanks for stopping by! I use this as my personal professional website to learn/develop skills and as a creative outlet to explore interests. 
-baseurl: "http://localhost:4000/jon-vargas.github.io" # the subpath of your site, e.g. /blog
+baseurl: "/jon-vargas.github.io" # the subpath of your site, e.g. /blog
 url: "jon-vargas.gothub.io" # the base hostname & protocol for your site
 author: Jonathan Vargas
 location: Orange County
