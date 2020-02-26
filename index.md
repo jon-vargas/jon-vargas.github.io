@@ -5,39 +5,35 @@ layout: default
 <!-- Section -->
 <section>
 	<header class="major">
-		<h2>Hightlight</h2>
+		<h2>Hightlights?</h2>
 	</header>
 	<div class="features">
 		<article>
 			<span class="icon fa-diamond"></span>
 			<div class="content">
 				<h3>h3 tag</h3>
-				<p>		<h3>header3</h3>
-		<p>text</p></p>
+				<p>text</p>
 			</div>
 		</article>
 		<article>
 			<span class="icon fa-paper-plane"></span>
 			<div class="content">
 				<h3>h3 tag</h3>
-				<p>		<h3>h3 tag</h3>
-		<p>text</p></p>
+				<p>text</p>
 			</div>
 		</article>
 		<article>
 			<span class="icon fa-rocket"></span>
 			<div class="content">
 				<h3>h3 tag</h3>
-				<p>		<h3>h3 tag</h3>
-		<p>text</p></p>
+				<p>text</p>
 			</div>
 		</article>
 		<article>
 			<span class="icon fa-signal"></span>
 			<div class="content">
 				<h3>h3 tag</h3>
-				<p>		<h3>h3 tag</h3>
-		<p>text</p></p>
+				<p>text</p>
 			</div>
 		</article>
 	</div>
