@@ -12,8 +12,8 @@
 		medium: '(max-width: 980px)',
 		small: '(max-width: 736px)',
 		xsmall: '(max-width: 480px)',
-		'xlarge-to-max': '(min-width: 1681px)',
-		'small-to-xlarge': '(min-width: 481px) and (max-width: 1680px)'
+		xlarge-to-max: '(min-width: 1681px)',
+		small-to-xlarge: '(min-width: 481px) and (max-width: 1680px)'
 	});
 
 	$(function() {
@@ -88,10 +88,10 @@
 
 			// Inactive by default on <= large.
 				skel
-					.on('+large', function() {
+					.on('-large', function() {
 						$sidebar.addClass('inactive');
 					})
-					.on('-large !large', function() {
+					.on('+large !large', function() {
 						$sidebar.removeClass('inactive');
 					});
 
@@ -102,7 +102,7 @@
 						.appendTo($head);
 
 			// Toggle.
-				if (skel.vars.IEVersion > 9) {
+				 // if (skel.vars.IEVersion > 9) {
 
 					$('<a href="#sidebar" class="toggle">Toggle</a>')
 						.appendTo($sidebar)
@@ -117,7 +117,7 @@
 
 						});
 
-				}
+				// }
 
 			// Events.
 
