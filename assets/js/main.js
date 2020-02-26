@@ -87,7 +87,7 @@
 				$sidebar_inner = $sidebar.children('.inner');
 
 			// Inactive by default on <= large.
-				skel
+				skel.breakpoints
 					.on('-large', function() {
 						$sidebar.addClass('inactive');
 					})
