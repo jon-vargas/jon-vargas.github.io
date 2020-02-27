@@ -89,10 +89,10 @@
 			// Inactive by default on <= large.
 				skel
 					.on('+large', function() {
-						$sidebar.removeClass('inactive');
+						$sidebar.addClass('inactive');
 					})
 					.on('-large !large', function() {
-						$sidebar.addClass('inactive');
+						$sidebar.removeClass('inactive');
 					});
 
 			// Hack: Workaround for Chrome/Android scrollbar position bug.
@@ -102,7 +102,7 @@
 						.appendTo($head);
 
 			// Toggle.
-				 // if (skel.vars.IEVersion > 9) {
+				if (skel.vars.IEVersion > 9) {
 
 					$('<a href="#sidebar" class="toggle">Toggle</a>')
 						.appendTo($sidebar)
@@ -117,7 +117,7 @@
 
 						});
 
-				// }
+				}
 
 			// Events.
 
