@@ -9,4 +9,3 @@ image: assets/images/portugalcliffv2.jpg
 <hr class="major" />
 
 <h2>H2 tag</h2>
-<p>Text</p>
