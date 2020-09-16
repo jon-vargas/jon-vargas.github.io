@@ -1,12 +1,14 @@
 # main links
 main:
 -  title: "About"
-   url: /_pages/about.md
--  title: "Quick-Start Guide"
-   url: /_pages/01-quick-start-guide.md
-  #    title: "Sample Posts"
-  #   url: /year-archive/
-  #   - title: "Sample Collections"
-  #   url: /collection-archive/
-  #   - title: "Sitemap"
-  #   url: /sitemap/
+   url: /about/
+-  title: "Changelog"
+   url: /changelog/
+#  title: "Quick-Start Guide"
+#  url: /_pages/01-quick-start-guide.md
+#    title: "Sample Posts"
+#   url: /year-archive/
+#   - title: "Sample Collections"
+#   url: /collection-archive/
+#   - title: "Sitemap"
+#   url: /sitemap/
