@@ -26,13 +26,7 @@ repository               : jon-vargas/jon-vargas.github.io # GitHub username/rep
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : /assets/images/personal-logo.png # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : "My side project" # overrides the website title displayed in the masthead, use " " for no title
-excerpt                  : "This post should display a **header with an overlay image**, if the theme supports it."
-header:
-  overlay_image          : /assets/images/unsplash-image-1.jpg
-  caption                : "Photo credit: [**Unsplash**](https://unsplash.com)"
-  actions:
-    - label              : "More Info"
-      url                : "https://unsplash.com"
+
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -100,11 +94,14 @@ analytics:
 # Site Author
 author:
   name             : "Jonathan Vargas"
-  avatar           : /assets/images/myself.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : /assets/images/myself.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Junior Data Analyst"
   location         : "Somewhere typing away"
   email            : "jonvargas157@gmail.com"
   links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/jonathanvargas157/"
     # - label: "Email"
     #  icon: "fas fa-fw fa-envelope-square"
     #  url: "mailto:jonvargas157@email.com"
@@ -150,8 +147,8 @@ footer:
 # Reading Files
 include:
   - .htaccess
-  - _pages
-  - _posts
+  - ["_pages"]
+  - ["_posts"]
   - _layouts
   - _data
   - _includes
@@ -291,5 +288,12 @@ defaults:
       comments: # true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
 
 github: [metadata]

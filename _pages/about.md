@@ -1,6 +1,6 @@
 ---
 title: "About Me"
-permalink: /about-me.html
+permalink: /about/
 ---
 
 So who am I? I'm just someone who has a variety of interests I'd like to learn more about.

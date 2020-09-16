@@ -1,9 +1,9 @@
 # main links
 main:
 -  title: "About"
-   url: /pages/about-me/
+   url: /_pages/about.md
 -  title: "Quick-Start Guide"
-   url: /pages/01-quick-start-guide.md
+   url: /_pages/01-quick-start-guide.md
   #    title: "Sample Posts"
   #   url: /year-archive/
   #   - title: "Sample Collections"
